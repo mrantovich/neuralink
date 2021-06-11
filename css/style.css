@@ -183,6 +183,10 @@ a {
   }
 }
 
+.hero__link {
+  height: 100%;
+}
+
 @media (max-width: 768px) {
   .hero__link {
     margin-bottom: 20px;
@@ -581,6 +585,9 @@ a {
 @media (max-width: 768px) {
   .link-box {
     justify-content: center;
+  }
+  .link-box_hero {
+    height: 80px;
   }
 }
 
